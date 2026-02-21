@@ -26,6 +26,32 @@ Before running the agent, you can configure internal variables (1-10) directly i
 
 ---
 
+## Configuration Profiles (Examples)
+Use these presets to instantly toggle the visual character of the output:
+
+### 1. High-End Creative (The "Showcase" Look)
+**Best for:** Portfolios, Brand Launches, Experimental Landing Pages.
+- **`DESIGN_VARIANCE: 9`** (Wilde Asymmetrie, Masonry-Layouts, überlappende Sektionen)
+- **`MOTION_INTENSITY: 8`** (GSAP-Parallax, Staggered Orchestration, magnetische Buttons)
+- **`VISUAL_DENSITY: 2`** (Extremer Weißraum, massive Headlines, Editorial-Stil)
+- **Result:** Ein visuelles Erlebnis, das wie eine digitale Kunst-Installation wirkt.
+
+### 2. Balanced Premium (The "Modern SaaS" Look)
+**Best for:** Startups, Marketing-Pages, Professional Services.
+- **`DESIGN_VARIANCE: 5`** (Leichte Offsets, subtile Überlappungen, aber klarer Flow)
+- **`MOTION_INTENSITY: 5`** (Flüssige CSS-Transitions, sanfte Load-Ins, tactile Hover-States)
+- **`VISUAL_DENSITY: 5`** (Standardisierte Abstände, sehr gute Lesbarkeit)
+- **Result:** Hochmodern, vertrauenerweckend und extrem "polished" – wie ein Stripe- oder Linear-Produkt.
+
+### 3. Minimalist Standard (The "Utility" Look)
+**Best for:** Dashboards, Dokumentationen, Interne Tools.
+- **`DESIGN_VARIANCE: 2`** (Strikte Symmetrie, klassischer 12-Spalten-Grid)
+- **`MOTION_INTENSITY: 2`** (Nur essentielle Interaktionen, Fokus auf Geschwindigkeit)
+- **`VISUAL_DENSITY: 8`** (Hohe Informationsdichte, kompakte Listen, Mono-Fonts für Daten)
+- **Result:** Funktional, schnell und übersichtlich. Sieht "normal" aus, aber durch die Design-Taste Regeln ohne den billigen AI-Beigeschmack.
+
+---
+
 ## Installation
 
 You can clone this skill directly into your project's agent skills directory.
