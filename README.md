@@ -7,8 +7,11 @@ Right now, this whole system runs on just one single file: `SKILL.md`.
 
 ## IMPORTANT: Feedback & Contributions
 I’d love to hear your thoughts! If you have suggestions or find any bugs:
+
 Open a Pull Request or Issue right here on GitHub.
+
 Shoot me a DM on x.com/lexnlin
+
 Or email me at: hello@learn2vibecode.dev
 
 
