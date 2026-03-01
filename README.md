@@ -2,6 +2,14 @@
 
 A collection of skills that improve how AI tools write frontend code. Instead of generating generic, boring interfaces, the AI builds modern, premium designs with proper animations, spacing, and visual quality.
 
+## Feedback & Contributions
+
+I'd love to hear your thoughts! If you have suggestions or find any bugs:
+
+- Open a Pull Request or Issue right here on GitHub
+- DM me on [x.com/lexnlin](https://x.com/lexnlin)
+- Email me at [hello@learn2vibecode.dev](mailto:hello@learn2vibecode.dev)
+
 ## Skills
 
 There are three skills in this project. Each one lives in its own folder and contains a `SKILL.md` file.
