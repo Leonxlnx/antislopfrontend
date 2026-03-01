@@ -94,7 +94,7 @@ To actively combat generic AI designs, systematically implement these high-end c
 * **4-7 (Daily App Mode):** Normal spacing for standard web apps.
 * **8-10 (Cockpit Mode):** Tiny paddings. No card boxes; just 1px lines to separate data. Everything is packed. **Mandatory:** Use Monospace (`font-mono`) for all numbers.
 
-## 7. THE 100 AI TELLS (Forbidden Patterns)
+## 7. AI TELLS (Forbidden Patterns)
 To guarantee a premium, non-generic output, you MUST strictly avoid these common AI design signatures unless explicitly requested:
 
 ### Visual & CSS

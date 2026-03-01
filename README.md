@@ -1,49 +1,55 @@
-# Taste-Skill (High-Agency Frontend)
+# Taste Skill
 
-This project gives your AI (like in Antigravity, Cursor, Codex, Claude Code) good taste. It stops the AI from generating boring, generic, "slop" code and forces it to build modern, high-end interfaces.
+A collection of skills that improve how AI tools write frontend code. Instead of generating generic, boring interfaces, the AI builds modern, premium designs with proper animations, spacing, and visual quality.
 
-Right now, this whole system runs on just one single file: `SKILL.md`.
+## Skills
 
-## How to Install
+There are three skills in this project. Each one lives in its own folder and contains a `SKILL.md` file.
 
-You don't need to clone this whole project or do any complex setup. You just need the file.
+### 1. taste-skill
+The main design skill. Teaches the AI how to write good-looking frontend code from scratch. Covers layout, typography, colors, spacing, motion, and overall visual quality.
 
-1. Download the `SKILL.md` file from this repository.
-2. Put it into your project folder.
-3. Tell your AI (in your prompt or chat): *"Please read and strictly follow the rules in `SKILL.md`."* (In editors like Cursor, you can just `@SKILL.md`).
+### 2. redesign-skill
+For upgrading existing projects. Instead of rebuilding from zero, this skill walks the AI through auditing what's already there and fixing the biggest design problems first.
 
-That's it. The AI will read the file and instantly upgrade how it writes frontend code.
+### 3. output-skill
+Stops the AI from being lazy. Prevents placeholder comments, skipped code blocks, and half-finished outputs. Forces the AI to actually write everything instead of cutting corners.
 
-## The 3 Control Dials
+## How to Use
 
-At the very top of `SKILL.md`, you will find three settings. They look like this:
-* `DESIGN_VARIANCE: 8`
-* `MOTION_INTENSITY: 6`
-* `VISUAL_DENSITY: 4`
+1. Copy the `SKILL.md` file from the skill folder you need into your project.
+2. Tell your AI to read and follow it. In most editors you can just reference it directly (e.g. `@SKILL.md` in Cursor).
 
-You can change these numbers from `1` to `10` depending on what you want to build. Here is what they actually do:
+That's it. The AI reads the file and follows the rules.
 
-### 1. DESIGN_VARIANCE (1 to 10)
-This controls how crazy or normal the layout looks.
-* **1 to 3 (Normal):** Very safe, centered layouts. Standard grids where everything lines up perfectly.
-* **4 to 7 (Creative):** Things overlap a bit. Text might be pushed to the side, images have different sizes.
-* **8 to 10 (Wild):** Asymmetric layouts, huge empty spaces, masonry grids. Very artsy and modern.
+## Settings (taste-skill only)
 
-### 2. MOTION_INTENSITY (1 to 10)
-This controls how much stuff moves on the screen.
-* **1 to 3 (Static):** Almost no movement. Just simple color changes when you hover over a button.
-* **4 to 7 (Smooth):** Nice fade-ins when the page loads. Smooth scrolling.
-* **8 to 10 (Cinematic):** Buttons that magnetic-pull to your mouse. Elements that pop in with spring physics. Advanced scrolling effects.
+The taste skill has three settings at the top of the file. Change these numbers (1-10) depending on what you're building:
 
-### 3. VISUAL_DENSITY (1 to 10)
-This is all about "Room to Breathe". It controls how much stuff is packed onto one screen.
+**DESIGN_VARIANCE** — How experimental the layout is.
+- 1-3: Clean, centered, standard grids.
+- 4-7: Overlapping elements, varied sizes.
+- 8-10: Asymmetric, lots of whitespace, very modern.
 
-* **1 to 3 (The "Art Gallery" Mode):** 
-  Everything has huge space. One big photo, one big title. You have to scroll to see the next thing. This feels expensive and high-end, like a luxury brand (Apple, Gucci).
-* **4 to 7 (The "Daily App" Mode):** 
-  Normal spacing. Like Instagram or a news site. Not too crowded, but you can see enough.
-* **8 to 10 (The "Cockpit" Mode):** 
-  Everything is tiny and packed together. No big cards, just thin lines and lists. You can see 100 numbers and stats at once without scrolling. This is for pros (Trading apps, Dashboards, Sci-Fi interfaces).
+**MOTION_INTENSITY** — How much animation there is.
+- 1-3: Almost none. Simple hover effects.
+- 4-7: Fade-ins, smooth scrolling.
+- 8-10: Magnetic effects, spring physics, scroll-triggered animations.
+
+**VISUAL_DENSITY** — How much content fits on one screen.
+- 1-3: Big and spacious. One element at a time. Luxury feel.
+- 4-7: Normal spacing. Like a typical app or website.
+- 8-10: Dense and compact. Dashboards, data-heavy interfaces.
 
 ## Examples
-*(Example projects and templates will be added in a future update! Stay tuned!)*
+
+Created with taste-skill:
+
+<p>
+  <img src="examples/floria-top.webp" width="400" />
+  <img src="examples/floria-bottom.webp" width="400" />
+</p>
+
+## Research
+
+Background research that informed how these skills were built. See the [research](research/) folder.
